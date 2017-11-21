@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C64FF6A1FC35AC300FABD1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C64FF691FC35AC300FABD1A /* AppDelegate.swift */; };
+		4C64FF6C1FC35AC300FABD1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C64FF6B1FC35AC300FABD1A /* ViewController.swift */; };
+		4C64FF6F1FC35AC300FABD1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C64FF6D1FC35AC300FABD1A /* Main.storyboard */; };
+		4C64FF711FC35AC300FABD1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C64FF701FC35AC300FABD1A /* Assets.xcassets */; };
+		4C64FF741FC35AC300FABD1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C64FF721FC35AC300FABD1A /* LaunchScreen.storyboard */; };
+		4C64FF7F1FC35AC400FABD1A /* Metabolic_PathwaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C64FF7E1FC35AC400FABD1A /* Metabolic_PathwaysTests.swift */; };
+		4C64FF8A1FC35AC400FABD1A /* Metabolic_PathwaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C64FF891FC35AC400FABD1A /* Metabolic_PathwaysUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C64FF7B1FC35AC400FABD1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C64FF5E1FC35AC300FABD1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C64FF651FC35AC300FABD1A;
+			remoteInfo = "Metabolic Pathways";
+		};
+		4C64FF861FC35AC400FABD1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C64FF5E1FC35AC300FABD1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C64FF651FC35AC300FABD1A;
+			remoteInfo = "Metabolic Pathways";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C64FF661FC35AC300FABD1A /* Metabolic Pathways.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metabolic Pathways.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C64FF691FC35AC300FABD1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C64FF6B1FC35AC300FABD1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C64FF6E1FC35AC300FABD1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C64FF701FC35AC300FABD1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C64FF731FC35AC300FABD1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C64FF751FC35AC300FABD1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C64FF7A1FC35AC400FABD1A /* Metabolic PathwaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metabolic PathwaysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C64FF7E1FC35AC400FABD1A /* Metabolic_PathwaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metabolic_PathwaysTests.swift; sourceTree = "<group>"; };
+		4C64FF801FC35AC400FABD1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C64FF851FC35AC400FABD1A /* Metabolic PathwaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metabolic PathwaysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C64FF891FC35AC400FABD1A /* Metabolic_PathwaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metabolic_PathwaysUITests.swift; sourceTree = "<group>"; };
+		4C64FF8B1FC35AC400FABD1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C64FF631FC35AC300FABD1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C64FF771FC35AC400FABD1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C64FF821FC35AC400FABD1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C64FF5D1FC35AC300FABD1A = {
+			isa = PBXGroup;
+			children = (
+				4C64FF681FC35AC300FABD1A /* Metabolic Pathways */,
+				4C64FF7D1FC35AC400FABD1A /* Metabolic PathwaysTests */,
+				4C64FF881FC35AC400FABD1A /* Metabolic PathwaysUITests */,
+				4C64FF671FC35AC300FABD1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C64FF671FC35AC300FABD1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C64FF661FC35AC300FABD1A /* Metabolic Pathways.app */,
+				4C64FF7A1FC35AC400FABD1A /* Metabolic PathwaysTests.xctest */,
+				4C64FF851FC35AC400FABD1A /* Metabolic PathwaysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C64FF681FC35AC300FABD1A /* Metabolic Pathways */ = {
+			isa = PBXGroup;
+			children = (
+				4C64FF691FC35AC300FABD1A /* AppDelegate.swift */,
+				4C64FF6B1FC35AC300FABD1A /* ViewController.swift */,
+				4C64FF6D1FC35AC300FABD1A /* Main.storyboard */,
+				4C64FF701FC35AC300FABD1A /* Assets.xcassets */,
+				4C64FF721FC35AC300FABD1A /* LaunchScreen.storyboard */,
+				4C64FF751FC35AC300FABD1A /* Info.plist */,
+			);
+			path = "Metabolic Pathways";
+			sourceTree = "<group>";
+		};
+		4C64FF7D1FC35AC400FABD1A /* Metabolic PathwaysTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C64FF7E1FC35AC400FABD1A /* Metabolic_PathwaysTests.swift */,
+				4C64FF801FC35AC400FABD1A /* Info.plist */,
+			);
+			path = "Metabolic PathwaysTests";
+			sourceTree = "<group>";
+		};
+		4C64FF881FC35AC400FABD1A /* Metabolic PathwaysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C64FF891FC35AC400FABD1A /* Metabolic_PathwaysUITests.swift */,
+				4C64FF8B1FC35AC400FABD1A /* Info.plist */,
+			);
+			path = "Metabolic PathwaysUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C64FF651FC35AC300FABD1A /* Metabolic Pathways */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C64FF8E1FC35AC400FABD1A /* Build configuration list for PBXNativeTarget "Metabolic Pathways" */;
+			buildPhases = (
+				4C64FF621FC35AC300FABD1A /* Sources */,
+				4C64FF631FC35AC300FABD1A /* Frameworks */,
+				4C64FF641FC35AC300FABD1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Metabolic Pathways";
+			productName = "Metabolic Pathways";
+			productReference = 4C64FF661FC35AC300FABD1A /* Metabolic Pathways.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C64FF791FC35AC400FABD1A /* Metabolic PathwaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C64FF911FC35AC400FABD1A /* Build configuration list for PBXNativeTarget "Metabolic PathwaysTests" */;
+			buildPhases = (
+				4C64FF761FC35AC400FABD1A /* Sources */,
+				4C64FF771FC35AC400FABD1A /* Frameworks */,
+				4C64FF781FC35AC400FABD1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C64FF7C1FC35AC400FABD1A /* PBXTargetDependency */,
+			);
+			name = "Metabolic PathwaysTests";
+			productName = "Metabolic PathwaysTests";
+			productReference = 4C64FF7A1FC35AC400FABD1A /* Metabolic PathwaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C64FF841FC35AC400FABD1A /* Metabolic PathwaysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C64FF941FC35AC400FABD1A /* Build configuration list for PBXNativeTarget "Metabolic PathwaysUITests" */;
+			buildPhases = (
+				4C64FF811FC35AC400FABD1A /* Sources */,
+				4C64FF821FC35AC400FABD1A /* Frameworks */,
+				4C64FF831FC35AC400FABD1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C64FF871FC35AC400FABD1A /* PBXTargetDependency */,
+			);
+			name = "Metabolic PathwaysUITests";
+			productName = "Metabolic PathwaysUITests";
+			productReference = 4C64FF851FC35AC400FABD1A /* Metabolic PathwaysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C64FF5E1FC35AC300FABD1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Richard Liu";
+				TargetAttributes = {
+					4C64FF651FC35AC300FABD1A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					4C64FF791FC35AC400FABD1A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C64FF651FC35AC300FABD1A;
+					};
+					4C64FF841FC35AC400FABD1A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C64FF651FC35AC300FABD1A;
+					};
+				};
+			};
+			buildConfigurationList = 4C64FF611FC35AC300FABD1A /* Build configuration list for PBXProject "Metabolic Pathways" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C64FF5D1FC35AC300FABD1A;
+			productRefGroup = 4C64FF671FC35AC300FABD1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C64FF651FC35AC300FABD1A /* Metabolic Pathways */,
+				4C64FF791FC35AC400FABD1A /* Metabolic PathwaysTests */,
+				4C64FF841FC35AC400FABD1A /* Metabolic PathwaysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C64FF641FC35AC300FABD1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C64FF741FC35AC300FABD1A /* LaunchScreen.storyboard in Resources */,
+				4C64FF711FC35AC300FABD1A /* Assets.xcassets in Resources */,
+				4C64FF6F1FC35AC300FABD1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C64FF781FC35AC400FABD1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C64FF831FC35AC400FABD1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C64FF621FC35AC300FABD1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C64FF6C1FC35AC300FABD1A /* ViewController.swift in Sources */,
+				4C64FF6A1FC35AC300FABD1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C64FF761FC35AC400FABD1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C64FF7F1FC35AC400FABD1A /* Metabolic_PathwaysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C64FF811FC35AC400FABD1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C64FF8A1FC35AC400FABD1A /* Metabolic_PathwaysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C64FF7C1FC35AC400FABD1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C64FF651FC35AC300FABD1A /* Metabolic Pathways */;
+			targetProxy = 4C64FF7B1FC35AC400FABD1A /* PBXContainerItemProxy */;
+		};
+		4C64FF871FC35AC400FABD1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C64FF651FC35AC300FABD1A /* Metabolic Pathways */;
+			targetProxy = 4C64FF861FC35AC400FABD1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C64FF6D1FC35AC300FABD1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C64FF6E1FC35AC300FABD1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C64FF721FC35AC300FABD1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C64FF731FC35AC300FABD1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C64FF8C1FC35AC400FABD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C64FF8D1FC35AC400FABD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C64FF8F1FC35AC400FABD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87UNZ5Y4XX;
+				INFOPLIST_FILE = "Metabolic Pathways/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.Metabolic-Pathways";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C64FF901FC35AC400FABD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87UNZ5Y4XX;
+				INFOPLIST_FILE = "Metabolic Pathways/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.Metabolic-Pathways";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C64FF921FC35AC400FABD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87UNZ5Y4XX;
+				INFOPLIST_FILE = "Metabolic PathwaysTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.Metabolic-PathwaysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metabolic Pathways.app/Metabolic Pathways";
+			};
+			name = Debug;
+		};
+		4C64FF931FC35AC400FABD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87UNZ5Y4XX;
+				INFOPLIST_FILE = "Metabolic PathwaysTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.Metabolic-PathwaysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metabolic Pathways.app/Metabolic Pathways";
+			};
+			name = Release;
+		};
+		4C64FF951FC35AC400FABD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87UNZ5Y4XX;
+				INFOPLIST_FILE = "Metabolic PathwaysUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.Metabolic-PathwaysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Metabolic Pathways";
+			};
+			name = Debug;
+		};
+		4C64FF961FC35AC400FABD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87UNZ5Y4XX;
+				INFOPLIST_FILE = "Metabolic PathwaysUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.Metabolic-PathwaysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Metabolic Pathways";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C64FF611FC35AC300FABD1A /* Build configuration list for PBXProject "Metabolic Pathways" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C64FF8C1FC35AC400FABD1A /* Debug */,
+				4C64FF8D1FC35AC400FABD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C64FF8E1FC35AC400FABD1A /* Build configuration list for PBXNativeTarget "Metabolic Pathways" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C64FF8F1FC35AC400FABD1A /* Debug */,
+				4C64FF901FC35AC400FABD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C64FF911FC35AC400FABD1A /* Build configuration list for PBXNativeTarget "Metabolic PathwaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C64FF921FC35AC400FABD1A /* Debug */,
+				4C64FF931FC35AC400FABD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C64FF941FC35AC400FABD1A /* Build configuration list for PBXNativeTarget "Metabolic PathwaysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C64FF951FC35AC400FABD1A /* Debug */,
+				4C64FF961FC35AC400FABD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C64FF5E1FC35AC300FABD1A /* Project object */;
+}
