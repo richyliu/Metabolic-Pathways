@@ -1,0 +1,23 @@
+alanine,A,Ala,-CH3
+cysteine,C,Cys,-CH2SH
+aspartic acid,D,Asp,-CH2COOH
+glutamic acid,E,Glu,-CH2CH2COOH
+phenylalanine,F,Phe,-CH2C6H5
+glycine,G,Gly,-H
+histidine,H,His,-CH2-C3H3N2
+isoleucine,I,Ile,-CH(CH3)CH2CH3
+lysine,K,Lys,-(CH2)4NH2
+leucine,L,Leu,-CH2CH(CH3)2
+methionine,M,Met,-CH2CH2SCH3
+asparagine,N,Asn,-CH2CONH2
+pyrrolysine,O,Pyl,-(CH2)4NHCOC4H5NCH3
+proline,P,Pro,-CH2CH2CH2-
+glutamine,Q,Gln,-CH2CH2CONH2
+arginine,R,Arg,-(CH2)3NH-C(NH)NH2
+serine,S,Ser,-CH2OH
+threonine,T,Thr,-CH(OH)CH3
+selenocysteine,U,Sec,-CH2SeH
+valine,V,Val,-CH(CH3)2
+tryptophan,W,Trp,-CH2C8H6N
+tyrosine,Y,Tyr,-CH2-C6H4OH
+

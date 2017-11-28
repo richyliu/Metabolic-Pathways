@@ -15,6 +15,10 @@
 		4C64FF741FC35AC300FABD1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C64FF721FC35AC300FABD1A /* LaunchScreen.storyboard */; };
 		4C64FF7F1FC35AC400FABD1A /* Metabolic_PathwaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C64FF7E1FC35AC400FABD1A /* Metabolic_PathwaysTests.swift */; };
 		4C64FF8A1FC35AC400FABD1A /* Metabolic_PathwaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C64FF891FC35AC400FABD1A /* Metabolic_PathwaysUITests.swift */; };
+		4C8716251FCB869E00D20BDC /* Substance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8716241FCB869E00D20BDC /* Substance.swift */; };
+		4C8716271FCB892000D20BDC /* CSwiftV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8716261FCB892000D20BDC /* CSwiftV.swift */; };
+		4C8716291FCB897700D20BDC /* substances.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C8716281FCB897700D20BDC /* substances.csv */; };
+		4CF5D4641FCBE65C00A9E499 /* SubstanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF5D4631FCBE65C00A9E499 /* SubstanceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		4C64FF851FC35AC400FABD1A /* Metabolic PathwaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metabolic PathwaysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C64FF891FC35AC400FABD1A /* Metabolic_PathwaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metabolic_PathwaysUITests.swift; sourceTree = "<group>"; };
 		4C64FF8B1FC35AC400FABD1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C8716241FCB869E00D20BDC /* Substance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substance.swift; sourceTree = "<group>"; };
+		4C8716261FCB892000D20BDC /* CSwiftV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSwiftV.swift; sourceTree = "<group>"; };
+		4C8716281FCB897700D20BDC /* substances.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = substances.csv; sourceTree = "<group>"; };
+		4CF5D4631FCBE65C00A9E499 /* SubstanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstanceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,15 @@
 			children = (
 				4C64FF691FC35AC300FABD1A /* AppDelegate.swift */,
 				4C64FF6B1FC35AC300FABD1A /* ViewController.swift */,
+				4C8716261FCB892000D20BDC /* CSwiftV.swift */,
 				4C64FF6D1FC35AC300FABD1A /* Main.storyboard */,
 				4C64FF701FC35AC300FABD1A /* Assets.xcassets */,
 				4C64FF721FC35AC300FABD1A /* LaunchScreen.storyboard */,
 				4C64FF751FC35AC300FABD1A /* Info.plist */,
 				4C24FB491FC5476200519617 /* MapView.swift */,
+				4C8716241FCB869E00D20BDC /* Substance.swift */,
+				4C8716281FCB897700D20BDC /* substances.csv */,
+				4CF5D4631FCBE65C00A9E499 /* SubstanceViewController.swift */,
 			);
 			path = "Metabolic Pathways";
 			sourceTree = "<group>";
@@ -235,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8716291FCB897700D20BDC /* substances.csv in Resources */,
 				4C64FF741FC35AC300FABD1A /* LaunchScreen.storyboard in Resources */,
 				4C64FF711FC35AC300FABD1A /* Assets.xcassets in Resources */,
 				4C64FF6F1FC35AC300FABD1A /* Main.storyboard in Resources */,
@@ -262,8 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8716271FCB892000D20BDC /* CSwiftV.swift in Sources */,
 				4C64FF6C1FC35AC300FABD1A /* ViewController.swift in Sources */,
 				4C24FB4A1FC5476200519617 /* MapView.swift in Sources */,
+				4CF5D4641FCBE65C00A9E499 /* SubstanceViewController.swift in Sources */,
+				4C8716251FCB869E00D20BDC /* Substance.swift in Sources */,
 				4C64FF6A1FC35AC300FABD1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
