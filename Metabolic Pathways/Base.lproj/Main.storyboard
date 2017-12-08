@@ -96,5 +96,20 @@
             </objects>
             <point key="canvasLocation" x="952.79999999999995" y="135.38230884557723"/>
         </scene>
+        <!--Pathways View Controller-->
+        <scene sceneID="0V0-pk-FoK">
+            <objects>
+                <viewController id="vhK-KM-fPG" customClass="PathwaysViewController" customModule="Metabolic_Pathways" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fkh-nb-xRY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="5Bb-z7-gsR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZkK-Ze-E7V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="953" y="848"/>
+        </scene>
     </scenes>
 </document>

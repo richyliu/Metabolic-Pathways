@@ -18,6 +18,7 @@
 		4C8716251FCB869E00D20BDC /* Substance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8716241FCB869E00D20BDC /* Substance.swift */; };
 		4C8716271FCB892000D20BDC /* CSwiftV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8716261FCB892000D20BDC /* CSwiftV.swift */; };
 		4C8716291FCB897700D20BDC /* substances.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C8716281FCB897700D20BDC /* substances.csv */; };
+		4C89311E1FD07AB400D5AB61 /* PathwaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89311D1FD07AB400D5AB61 /* PathwaysViewController.swift */; };
 		4CF5D4641FCBE65C00A9E499 /* SubstanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF5D4631FCBE65C00A9E499 /* SubstanceViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		4C8716241FCB869E00D20BDC /* Substance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substance.swift; sourceTree = "<group>"; };
 		4C8716261FCB892000D20BDC /* CSwiftV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSwiftV.swift; sourceTree = "<group>"; };
 		4C8716281FCB897700D20BDC /* substances.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = substances.csv; sourceTree = "<group>"; };
+		4C89311D1FD07AB400D5AB61 /* PathwaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathwaysViewController.swift; sourceTree = "<group>"; };
 		4CF5D4631FCBE65C00A9E499 /* SubstanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstanceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,7 @@
 				4C8716241FCB869E00D20BDC /* Substance.swift */,
 				4C8716281FCB897700D20BDC /* substances.csv */,
 				4CF5D4631FCBE65C00A9E499 /* SubstanceViewController.swift */,
+				4C89311D1FD07AB400D5AB61 /* PathwaysViewController.swift */,
 			);
 			path = "Metabolic Pathways";
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C8716271FCB892000D20BDC /* CSwiftV.swift in Sources */,
+				4C89311E1FD07AB400D5AB61 /* PathwaysViewController.swift in Sources */,
 				4C64FF6C1FC35AC300FABD1A /* ViewController.swift in Sources */,
 				4C24FB4A1FC5476200519617 /* MapView.swift in Sources */,
 				4CF5D4641FCBE65C00A9E499 /* SubstanceViewController.swift in Sources */,
