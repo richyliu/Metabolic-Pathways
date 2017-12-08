@@ -1,18 +1,18 @@
 $(() => {
-    // var $panzoom = $('#main').panzoom({
-    //     increment: 0.05
-    // });
-    // $panzoom.on('mousewheel.focal', e => {
-    //     e.preventDefault();
-    // 
-    //     let delta = e.delta || e.originalEvent.wheelDelta;
-    //     let zoomOut = delta ? delta < 0 : e.originalEvent.deltaY > 0;
-    // 
-    //     $panzoom.panzoom('zoom', zoomOut, {
-    //         animate: false,
-    //         focal: e
-    //     });
-    // });    
+    var $panzoom = $('#main').panzoom({
+        increment: 0.05
+    });
+    $panzoom.on('mousewheel.focal', e => {
+        e.preventDefault();
+    
+        let delta = e.delta || e.originalEvent.wheelDelta;
+        let zoomOut = delta ? delta < 0 : e.originalEvent.deltaY > 0;
+    
+        $panzoom.panzoom('zoom', zoomOut, {
+            animate: false,
+            focal: e
+        });
+    });    
 });
 
 
