@@ -1,0 +1,202 @@
+{
+    "glycine": {
+        "name": "Glycine",
+        "abbr": "(Gly, G)",
+        "polarity": "Hydrophobic (nonpolar)",
+        "pK1": "(&#945;- COOH)= 2.3",
+        "pK2": "(&#945;- NH<sub>3</sub><sup>+</sup>)= 9.6",
+        "pK3": "N/A",
+        "pI": "6.0",
+        "titrationCurve": "img/tc1.png"
+    },
+    "alanine": {
+        "name": "Alanine",
+        "abbr": "(Ala, A)",
+        "polarity": "Hydrophobic (nonpolar)",
+        "pK1": "(&#945;- COOH)= 2.4",
+        "pK2": "(&#945;- NH<sub>3</sub><sup>+</sup>)= 9.7",
+        "pK3": "N/A",
+        "pI": "6.0",
+        "titrationCurve": "img/tc1.png"
+    },
+    "proline": {
+        "name": "Glycine",
+        "abbr": "(Gly, G)",
+        "polarity": "Hydrophobic (nonpolar)",
+        "pK1": "(&#945;- COOH)= 2.0",
+        "pK2": "(&#945;- NH<sub>3</sub><sup>+</sup>)= 10.6",
+        "pK3": "N/A",
+        "pI": "6.0",
+        "titrationCurve": "img/tc1.png"
+    },
+    "valine": {
+        "name": "Valine",
+        "abbr": "(Val, V)",
+        "polarity": "Hydrophobic (nonpolar)",
+        "pK1": "(&#945;- COOH)= 2.3",
+        "pK2": "(&#945;- NH<sub>3</sub><sup>+</sup>)= 9.6",
+        "pK3": "N/A",
+        "pI": "6.0",
+        "titrationCurve": "img/tc1.png"
+    },
+    "leucine": {
+        "name": "Leucine",
+        "abbr": "(Leu, L)",
+        "polarity": "Hydrophobic (nonpolar)",
+        "pK1": "(&#945;- COOH)= 2.4",
+        "pK2": "(&#945;- NH<sub>3</sub><sup>+</sup>)= 9.6",
+        "pK3": "N/A",
+        "pI": "6.0",
+        "titrationCurve": "img/tc1.png"
+    },
+    "isoleucine": {
+        "name": "Isoleucine",
+        "abbr": "(Ile, I)",
+        "polarity": "Hydrophobic (nonpolar)",
+        "pK1": "(&#945;- COOH)= 2.4",
+        "pK2": "(&#945;- NH<sub>3</sub><sup>+</sup>)= 9.6",
+        "pK3": "N/A",
+        "pI": "6.0",
+        "titrationCurve": "img/tc1.png"
+    },
+    "phenylalanine": {
+        "name": "Phenylalanine",
+        "abbr": "(Phe, F)",
+        "polarity": "Hydrophobic (nonpolar)",
+        "pK1": "(&#945;- COOH)= 1.8",
+        "pK2": "(&#945;- NH<sub>3</sub><sup>+</sup>)= 9.1",
+        "pK3": "N/A",
+        "pI": "5.5",
+        "titrationCurve": "img/tc1.png"
+    },
+    "tyrosine": {
+        "name": "Tyrosine",
+        "abbr": "(Tyr, Y)",
+        "polarity": "Hydrophilic (polar)",
+        "pK1": "(&#945;- COOH)= 2.2",
+        "pK2": "(&#945;- NH<sub>3</sub><sup>+</sup>)= 9.1",
+        "pK3": "(R-phenolic OH)=10.1",
+        "pI": "5.7",
+        "titrationCurve": "img/tc2.png"
+    },
+    "tryptophan": {
+        "name": "Tryptophan",
+        "abbr": "(Trp, W)",
+        "polarity": "Hydrophobic (nonpolar)",
+        "pK1": "(&#945;- COOH)= 2.8",
+        "pK2": "(&#945;- NH<sub>3</sub><sup>+</sup>)= 9.4",
+        "pK3": "N/A",
+        "pI": "5.9",
+        "titrationCurve": "img/tc1.png"
+    },
+    "asparagine": {
+        "name": "Asparagine",
+        "abbr": "(Asn, N)",
+        "polarity": "Hydrophilic (polar)",
+        "pK1": "(&#945;- COOH)= 2.0",
+        "pK2": "(&#945;- NH<sub>3</sub><sup>+</sup>)= 8.8",
+        "pK3": "N/A",
+        "pI": "5.4",
+        "titrationCurve": "img/tc1.png"
+    },
+    "glutamine": {
+        "name": "Glutamine",
+        "abbr": "(Gln, Q)",
+        "polarity": "Hydrophilic (polar)",
+        "pK1": "(&#945;- COOH)= 2.2",
+        "pK2": "(&#945;- NH<sub>3</sub><sup>+</sup>)= 9.1",
+        "pK3": "N/A",
+        "pI": "5.7",
+        "titrationCurve": "img/tc1.png"
+    },
+    "serine": {
+        "name": "Serine",
+        "abbr": "(Ser, S)",
+        "polarity": "Hydrophilic (polar)",
+        "pK1": "(&#945;- COOH)= 2.2",
+        "pK2": "(&#945;- NH<sub>3</sub><sup>+</sup>)= 9.2",
+        "pK3": "N/A",
+        "pI": "5.7",
+        "titrationCurve": "img/tc1.png"
+    },
+    "threonine": {
+        "name": "Threonine",
+        "abbr": "(Thr, T)",
+        "polarity": "Hydrophilic (polar)",
+        "pK1": "(&#945;- COOH)= 2.1",
+        "pK2": "(&#945;- NH<sub>3</sub><sup>+</sup>)= 9.1",
+        "pK3": "N/A",
+        "pI": "5.6",
+        "titrationCurve": "img/tc1.png"
+    },
+    "methionine": {
+        "name": "Methionine",
+        "abbr": "(Met, M)",
+        "polarity": "Hydrophobic (nonpolar)",
+        "pK1": "(&#945;- COOH)= 2.3",
+        "pK2": "(&#945;- NH<sub>3</sub><sup>+</sup>)= 9.2",
+        "pK3": "N/A",
+        "pI": "5.7",
+        "titrationCurve": "img/tc1.png"
+    },
+    "cysteine": {
+        "name": "Cysteine",
+        "abbr": "(Cys, C)",
+        "polarity": "Hydrophilic (polar)",
+        "pK1": "(&#945;- COOH)= 2.0",
+        "pK2": "(Thiol HS)= 8.1",
+        "pK3": "(&#945;- NH<sub>3</sub><sup>+</sup>)=10.3",
+        "pI": "5.1",
+        "titrationCurve": "img/tc2.png"
+    },
+    "arginine": {
+        "name": "Arginine",
+        "abbr": "(Arg, R)",
+        "polarity": "Hydrophilic (polar)",
+        "pK1": "(&#945;- COOH)= 2.2",
+        "pK2": "(&#945;- NH<sub>3</sub><sup>+</sup>)= 9.0",
+        "pK3": "(Guanidinium)=12.5",
+        "pI": "10.8",
+        "titrationCurve": "img/tc3.png"
+    },
+    "lysine": {
+        "name": "Lysine",
+        "abbr": "(Lys, K)",
+        "polarity": "Hydrophilic (polar)",
+        "pK1": "(&#945;- COOH)= 2.2",
+        "pK2": "(&#945;- NH<sub>3</sub><sup>+</sup>)= 9.0",
+        "pK3": "(ε- NH<sub>3</sub><sup>+</sup>)=10.5",
+        "pI": "9.7",
+        "titrationCurve": "img/tc3.png"
+    },
+    "histidine": {
+        "name": "Histidine",
+        "abbr": "(His, H)",
+        "polarity": "Hydrophilic (polar)",
+        "pK1": "(&#945;- COOH)= 1.8",
+        "pK2": "(imidazolium)= 6.0",
+        "pK3": "(&#945;- NH<sub>3</sub><sup>+</sup>)=9.2",
+        "pI": "7.6",
+        "titrationCurve": "img/tc3.png"
+    },
+    "asparatic acid": {
+        "name": "Asparatic acid",
+        "abbr": "(Asp, D)",
+        "polarity": "Hydrophilic (polar)",
+        "pK1": "(&#945;- COOH)= 1.9",
+        "pK2": "(&#946;- COOH)= 3.7",
+        "pK3": "(&#945;- NH<sub>3</sub><sup>+</sup>)=9.6",
+        "pI": "2.8",
+        "titrationCurve": "img/tc2.png"
+    },
+    "glutamic acid": {
+        "name": "Glutamic acid",
+        "abbr": "(Glu, E)",
+        "polarity": "Hydrophilic (polar)",
+        "pK1": "(&#945;- COOH)= 2.2",
+        "pK2": "(&#947;- COOH)= 4.3",
+        "pK3": "(&#945;- NH<sub>3</sub><sup>+</sup>)=9.7",
+        "pI": "3.2",
+        "titrationCurve": "img/tc2.png"
+    }
+}
