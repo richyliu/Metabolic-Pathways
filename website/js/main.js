@@ -73,4 +73,27 @@ $.get('js/data.json', aminoAcids => {
     $('#test').click(e => {
         moreInfo(aminoAcids[e.target.innerHTML.toLowerCase()]);
     });
+    
+    
+    moreInfo(aminoAcids.alanine);
 });
+
+
+function drawCurve() {
+    
+}
+
+/**
+ * Returns a curve between points (a, b) and (c, d) given x
+ * @param  {Number} x Input value
+ * @param  {Number} a X value of point 1
+ * @param  {Number} b Y value of point 1
+ * @param  {Number} c X value of point 2
+ * @param  {Number} d Y value of point 2
+ * @return {Number}   Y value for given X
+ */
+function curve(x, a, b, c, d) {
+    return ((b-d)/2) * Math.sin(Math.pi/(a-c) * (x-(a+c)/2)) + (b+d)/2;
+}
+
+console.log(curve(2, 0, 0, 1, 2))
