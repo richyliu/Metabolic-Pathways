@@ -14,3 +14,17 @@ body {
 ul {
     display: inline-block;
 }
+
+.ct-series-b {
+    .ct-line {
+        stroke: transparent;
+    }
+    .ct-point {
+        stroke: green;
+    }
+    
+}
+
+.ct-series-a .ct-point {
+    stroke: transparent;
+}

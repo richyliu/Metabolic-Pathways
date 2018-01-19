@@ -61,9 +61,61 @@ function moreInfo(opt) {
             <li>pK<sub>2</sub>${opt.pK2 || ''}</li>
             <li>pK<sub>3</sub>= ${opt.pK3 || ''}</li>
             <li>pI= ${opt.pI || ''}</li>
-            <li><img src="${opt.titrationCurve}"></img></li>
+            <li><div class="ct-chart ct-perfect-fourth" style="width: 400px; height: 500px;"></div></li>
         </ul>
     `);
+    
+    new Chartist.Line('.ct-chart',
+        {
+            series: opt.titrationCurve
+        }, {
+            axisX: {
+                type: Chartist.AutoScaleAxis,
+                high: 12,
+                low: 0,
+                onlyInteger: true
+            },
+            axisY: {
+                high: 2,
+                low: 0,
+                scaleMinSpace: 40    
+            },
+            showPoint: true,
+            width: '400px',
+            height: '500px',
+            plugins: [
+                // TODO: labels dont work
+                Chartist.plugins.ctPointLabels({
+                    textAnchor: 'middle',
+                    labelClass: 'ct-label',
+                    labelOffset: {
+                        x: 0,
+                        y: -10
+                    }
+                }),
+                Chartist.plugins.ctAxisTitle({
+                    axisX: {
+                        axisTitle: 'Ph',
+                        axisClass: 'ct-axis-title',
+                        offset: {
+                            x: 0,
+                            y: 30
+                        },
+                        textAnchor: 'middle'
+                    },
+                    axisY: {
+                        axisTitle: '3-n',
+                        axisClass: 'ct-axis-title',
+                        offset: {
+                            x: 0,
+                            y: -1
+                        },
+                        flipTitle: false
+                    }
+                })
+            ]
+        }
+    );
     
     $(`#${modalId}`).modal();
 }
@@ -79,21 +131,65 @@ $.get('js/data.json', aminoAcids => {
 });
 
 
-function drawCurve() {
-    
+
+let bez = new Bezier(
+    -2, -0.25,
+    3.5, -0.25,
+    1.2, 1,
+    4, 1
+);
+let bez2 = new Bezier(
+    7,1,
+    10,1,
+    7.9,2,
+    12,2
+);
+let labels = [
+    {x: 2.2, y: 0.5},
+    {x: 5.7, y: 1},
+    {x: 9.1, y: 1.5}
+];
+
+
+let points = bez.getLUT(100);
+
+let newpoints = [];
+// points from (4,1) to (8,1)
+for (let i = 4; i < 7; i+=0.1) {
+    newpoints.push({x: i, y: 1});
 }
 
-/**
- * Returns a curve between points (a, b) and (c, d) given x
- * @param  {Number} x Input value
- * @param  {Number} a X value of point 1
- * @param  {Number} b Y value of point 1
- * @param  {Number} c X value of point 2
- * @param  {Number} d Y value of point 2
- * @return {Number}   Y value for given X
- */
-function curve(x, a, b, c, d) {
-    return ((b-d)/2) * Math.sin(Math.pi/(a-c) * (x-(a+c)/2)) + (b+d)/2;
+points = points.concat(newpoints);
+
+let newpoints2 = [];
+
+points = points.concat(bez2.getLUT(100));
+
+let allpoints  = [[], labels];
+for (let i = 0;i < points.length; i++) {
+    if (points[i].y < 0)
+        points[i] = {};
+    else {
+        points[i].x = Math.round(points[i].x*10000)/10000;
+        points[i].y = Math.round(points[i].y*10000)/10000;
+        allpoints[0].push(points[i]);
+    }
 }
 
-console.log(curve(2, 0, 0, 1, 2))
+console.log(JSON.stringify(allpoints));
+
+new Chartist.Line('.example ',
+    {
+        series: allpoints
+    }, {
+        axisX: {
+            type: Chartist.AutoScaleAxis
+        },
+        high: 2,
+        low: 0,
+        showPoint: true,
+        width: '500px',
+        height: '500px',
+        
+    }
+);
