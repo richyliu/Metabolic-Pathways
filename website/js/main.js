@@ -64,7 +64,7 @@ function moreInfo(opt) {
             <li class="pK-label">pK<sub>3</sub>= ${opt.pK3 || ''}</li>
             <li class="pK-label">pI= ${opt.pI || ''}</li>
             <li>Chemical formula: <span class="chemical-formula">${opt.formula}</span></li>
-            <li><img src="img/amino_acids/${opt.name}.svg" class="chemical-img"></li>
+            <li><img src="img/amino_acids/${opt.name.toLowerCase()}.svg" class="chemical-img"></li>
             <li><div class="ct-chart ct-perfect-fourth" style="width: 400px; height: 400px;"></div></li>
         </ul>
     `);
@@ -200,3 +200,4 @@ new Chartist.Line('.example ',
 // https://en.wikipedia.org/wiki/Amino_acid
 // https://en.wikipedia.org/wiki/Asparagine
 // https://chemapps.stolaf.edu/jmol/jmol.php?model=C%28%5BC%40%40H%5D%28C%28%3DO%29O%29N%29C%28%3DO%29N
+// missing svg for lysine
