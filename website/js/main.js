@@ -88,14 +88,11 @@ function moreInfo(opt) {
             width: '400px',
             height: '400px',
             plugins: [
-                // TODO: labels dont work
                 Chartist.plugins.ctPointLabels({
-                    textAnchor: 'middle',
-                    labelClass: 'ct-label',
-                    labelOffset: {
-                        x: 0,
-                        y: -10
-                    }
+                    // labelInterpolationFnc: (value) => {
+                    //     console.log(value);
+                    //     return value
+                    // }
                 }),
                 Chartist.plugins.ctAxisTitle({
                     axisX: {
@@ -130,116 +127,20 @@ $.get('js/data.json', aminoAcids => {
         moreInfo(aminoAcids[e.target.innerHTML.toLowerCase()]);
     });
     
-    // moreInfo(aminoAcids.asparagine);
+    moreInfo(aminoAcids.alanine);
 });
 
 
-/*
-let bez = new Bezier(
-    0, 0,
-    3.7, 0,
-    2.3, 1,
-    4.5, 1 
-);
-let bez2 = new Bezier(
-    8,1,
-    9.8,1,
-    8.9,2,
-    11,2
-);
-// let bez3 = new Bezier(
-//     9.1,2,
-//     10.2,2,
-//     10.2,3,
-//     12,3
+
+// new Chartist.Line('.example ',
+//     {
+//         labels: ['M', 'T', 'W', 'Th', 'F'],
+//         series: [[1, 2, 6, 4, 3]]
+//     }, {
+//         width: '600px',
+//         height: '400px',
+//         plugins: [
+//             Chartist.plugins.ctPointLabels()
+//         ]
+//     }
 // );
-let labels = [
-    {"x":2.8,"y":0.5},
-    {"x":5.9,"y":1},
-    {"x":9.4,"y":1.5}
-];
-
-
-let points = [];
-let curPoints = [];
-
-points.push(...bez.getLUT(100).splice(0));
-
-for (let i = 4.5; i < 8; i+=0.1) {
-    curPoints.push({x: i, y: 1});
-}
-points.push(...curPoints);
-
-points.push(...(bez2.getLUT(100)).splice(0));
-
-// points.push(...(bez3.getLUT(100)).splice(0));
-
-
-let allPoints  = [[], labels];
-// remove y values below 0
-for (let i = 0;i < points.length; i++) {
-    if (points[i].y >= 0) {
-        points.splice(0, i);
-        break;
-    }
-}
-// round to 4 decimal places
-for (let i = 0; i < points.length; i++) {
-    allPoints[0].push({x: Math.round(points[i].x*10000)/10000, y: Math.round(points[i].y*10000)/10000});
-}
-
-
-console.log(JSON.stringify(allPoints));
-
-new Chartist.Line('.example ',
-    {
-        series: allPoints
-    }, {
-        axisX: {
-            type: Chartist.AutoScaleAxis,
-            high: 14,
-            low: 0,
-            onlyInteger: true
-        },
-        axisY: {
-            high: 3,
-            low: 0,
-            scaleMinSpace: 40    
-        },
-        showPoint: true,
-        width: '400px',
-        height: '400px',
-        plugins: [
-            // TODO: labels dont work
-            Chartist.plugins.ctPointLabels({
-                textAnchor: 'middle',
-                labelClass: 'ct-label',
-                labelOffset: {
-                    x: 0,
-                    y: -10
-                }
-            }),
-            Chartist.plugins.ctAxisTitle({
-                axisX: {
-                    axisTitle: 'Ph',
-                    axisClass: 'ct-axis-title',
-                    offset: {
-                        x: 0,
-                        y: 30
-                    },
-                    textAnchor: 'middle'
-                },
-                axisY: {
-                    axisTitle: '3-n',
-                    axisClass: 'ct-axis-title',
-                    offset: {
-                        x: 0,
-                        y: -1
-                    },
-                    flipTitle: false
-                }
-            })
-        ]
-    }
-);
-*/
