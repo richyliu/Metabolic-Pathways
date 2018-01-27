@@ -64,7 +64,7 @@ function moreInfo(opt) {
             <li class="pK-label">pK<sub>3</sub>= ${opt.pK3 || ''}</li>
             <li class="pK-label">pI= ${opt.pI || ''}</li>
             <li>Chemical formula: <span class="chemical-formula">${opt.formula}</span></li>
-            <li><img src="img/amino_acids/${opt.name.toLowerCase()}.svg" class="chemical-img"></li>
+            <li><img src="img/amino_acids/${opt.abbr.slice(1,4).toLowerCase()}.png" class="chemical-img"></li>
             <li><div class="ct-chart ct-perfect-fourth" style="width: 400px; height: 400px;"></div></li>
         </ul>
     `);
